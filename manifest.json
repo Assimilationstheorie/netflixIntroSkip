@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "NetflixIntroSkip",
+  "description": "NetflixIntroSkip",
+  "version": "1.0",
+  "icons": {
+    "48": "movie.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.netflix.com/watch/*"
+      ],
+      "js": ["netflix.js"]
+    }
+  ]
+}
