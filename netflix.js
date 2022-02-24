@@ -1,6 +1,6 @@
 function netflix() {
-    if(document.getElementsByClassName("ltr-18i00qw").length > 0) {
-        document.getElementsByClassName("ltr-18i00qw")[0].click()
+    if(document.getElementsByClassName("watch-video--skip-content")[0]) {
+        document.getElementsByClassName("watch-video--skip-content-button")[0].click();
     }
 }
 setInterval(netflix, 3000);
